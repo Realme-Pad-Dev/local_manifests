@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="realmepad"
+           fetch="https://github.com/Realme-Pad-Dev"
+           />
+  <remote  name="crdroid"
+           fetch="https://gitlab.com/crdroidandroid"
+           />           
+  <project path="device/realme/RMP6768" name="android_device_realme_RMP6768" remote="realmepad" revision="arrow-13.0"/>
+  <project path="vendor/realme/RMP6768" name="android_vendor_realme_RMP6768" remote="realmepad" revision="arrow-13.0"/>
+  <project path="kernel/realme/RMP6768" name="android_kernel_realme_RMP6768" remote="realmepad" revision="arrow-13.0"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="realmepad" revision="arrow-13.0"/>
+  <project path="vendor/mediatek/opensource/interfaces" name="vendor_mediatek_opensource_interfaces" remote="realmepad" revision="arrow-13.0"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="realmepad" revision="arrow-13.0"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid" revision="13.0"/>
+</manifest>

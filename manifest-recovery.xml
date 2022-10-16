@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="realmepad"
+           fetch="https://github.com/Realme-Pad-Dev"
+           />
+  <project path="device/realme/RMP6768" name="android_recovery_realme_RMP6768" remote="realmepad" revision="11.0"/>
+</manifest>
